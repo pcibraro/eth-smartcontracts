@@ -588,7 +588,7 @@ const newBalance = await MyCoin.methods.getBalance(to).call();
 ```
 The script finally emulates a delay so the new block with the transaction can be mined and gets the new balance from the contract instance afterward.
 
-#Conclusion
+# Conclusion
 
 While Bitcoin and Blockchain introduced a disruptive technology for building applications on top of a decentralized ledger of immutable transactions, Ethereum moved even beyond with the introduction of Smart Contracts.  
 Although the technology still needs to evolve before it is widely adopted for production use, it still represents a bright and promising feature for the application development space.
