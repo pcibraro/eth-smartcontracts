@@ -13,7 +13,7 @@ Last but not least important, most Blockchains are public, making the informatio
 
 ## Transactions and Blocks
 
-Transactions and blocks are the first citizens of any Blockchain. We can see transactions as atomic operations that modify the state of the ledger. Any user or application is free to join the network and submit transactions, which are later broadcast to other nodes for validation and execution. Those transactions can be executed in different manners depending on the Blockchain they run. For example, Bitcoin primarily allows transactions to transfer funds between accounts. It supports scripting, but it is limited. Ethereum, on the other hand, and as we will see later in this article, enable transferring funds and running programs.
+Transactions and blocks are the first citizens of any Blockchain. Transactions as atomic operations that modify the state of the ledger. Any user or application is free to join the network and submit transactions, which are later broadcast to other nodes for validation and execution. Those transactions can be executed in different manners depending on the Blockchain they run. For example, Bitcoin primarily allows transactions to transfer funds between accounts. It supports scripting, but it is limited. Ethereum, on the other hand, and as we will see later in this article, enable transferring funds and running programs.
 
 The sample below shows how a transaction might look like,
 
