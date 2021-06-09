@@ -13,13 +13,13 @@ Last but not least important, most Blockchains are public, making the informatio
 
 ## Transactions and Blocks
 
-Transactions and blocks are the first citizens of any Blockchain. Transactions as atomic operations that modify the state of the ledger. Any user or application is free to join the network and submit transactions, which are later broadcast to other nodes for validation and execution. Those transactions can be executed in different manners depending on the Blockchain they run. For example, Bitcoin primarily allows transactions to transfer funds between accounts. It supports scripting, but it is limited. Ethereum, on the other hand, and as we will see later in this article, enable transferring funds and running programs.
+Transactions and blocks are the first citizens of any Blockchain. Transactions are atomic operations that modify the state of the ledger. Any user or application is free to join the network and submit transactions, which are later broadcast to other nodes for validation and execution. Those transactions can be executed in different manners depending on the Blockchain they run. For example, Bitcoin primarily allows transactions to transfer funds between accounts. It supports scripting, but it is limited. Ethereum, on the other hand, and as we will see later in this article, enable transferring funds and running programs.
 
 The sample below shows how a transaction might look like,
 
 ![image](./img/transaction.png)
 
-We can not discuss Blockchain without mentioning one of the common denominators for all the implementations, Public Key Cryptography (PKI). 
+We can not finish this topic without mentioning one of the common denominators for all the Blockchain implementations, Public Key Cryptography (PKI). 
 A pair of private and public keys gives us the ability to send and receive transactions in a Blockchain network.
 We use private keys to sign transactions before submitting them to the Blockchain. On the other hand, we can derive public keys from a private key and share them with other users or applications to receive transactions. 
 As public keys represent a chunk of bytes, it becomes difficult for us to share them. For that reason, every Blockchain uses different encoding techniques and algorithms to convert them first in a user-friendly string. That encoded string is what we will know as "Address" from now on.
@@ -591,4 +591,4 @@ The script finally emulates a delay so the new block with the transaction can be
 # Conclusion
 
 While Bitcoin and Blockchain introduced a disruptive technology for building applications on top of a decentralized ledger of immutable transactions, Ethereum moved even beyond with the introduction of Smart Contracts.  
-Although the technology still needs to evolve before it is widely adopted for production use, it still represents a bright and promising feature for the application development space.
+It's evident the technology still needs to evolve before it is widely adopted for production use, but still represents a bright and promising feature for the application development space.
