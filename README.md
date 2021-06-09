@@ -98,7 +98,7 @@ In addition, you can set a Gas limit on the transaction, which expresses how muc
 
 ### Inmutability
 
-Smart Contracts are immutable. Their definition (byte code) can not be changed or updated once you were deployed on the BlockChain.  If you want to change an existing Smart Contract, you will have to deploy a new version in a new address. For that reason, you must pay special attention to code quality and testing to make sure a Smart Contract contains bugs you will never be able to fix.
+Smart Contracts are immutable. Their definition (byte code) can not be changed or updated once you were deployed on the BlockChain.  If you want to change an existing Smart Contract, you will have to deploy a new version in a new address. For that reason, you must pay special attention to code quality and testing to make sure you don't introduce bugs that will be never fixed.
 
 ## Decentralized Applications (a.k.a DApps)
 If you consider Smart Contracts as back-end APIs running in the Blockchain, Decentralized Applications are the front-end or UX. 
